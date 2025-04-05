@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci --verbose
+RUN npm install --verbose
 
 EXPOSE 5173
